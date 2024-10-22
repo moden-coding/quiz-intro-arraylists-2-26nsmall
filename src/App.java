@@ -8,6 +8,14 @@ public class App {
     //   I add more elements to your ArrayList. For example, I might add 7 to the
     //   ArrayList and this should still work.
     public static void main(String[] args) throws Exception {
-        
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(6);
+        list.add(3);
+        list.add(1);
+        list.add(2);
+        for (int count=0; count < list.size(); count ++){
+            System.out.println(list.get(count));
+
+        }
     }
 }
